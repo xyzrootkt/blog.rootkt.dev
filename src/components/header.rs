@@ -4,7 +4,7 @@ use leptos::prelude::*;
 pub fn Header(on_home: Callback<()>) -> impl IntoView {
     view! {
         <header class="header">
-            <h1>"rootkt.dev"</h1>
+            <h1>"blog.rootkt.dev"</h1>
             <p>"Development, Linux, Rust & other stuff."</p>
 
             <nav>

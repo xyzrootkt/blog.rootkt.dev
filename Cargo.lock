@@ -113,6 +113,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "blog-rootkt-dev"
+version = "0.1.0"
+dependencies = [
+ "include_dir",
+ "leptos",
+ "pulldown-cmark",
+]
+
+[[package]]
 name = "bumpalo"
 version = "3.20.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1145,15 +1154,6 @@ name = "regex-syntax"
 version = "0.8.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d6f6ff9a378485b298a5286656da665ba74413d36db0979633275d2e708145d4"
-
-[[package]]
-name = "rootkt-dev"
-version = "0.1.0"
-dependencies = [
- "include_dir",
- "leptos",
- "pulldown-cmark",
-]
 
 [[package]]
 name = "rstml"
