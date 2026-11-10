@@ -3,10 +3,7 @@ use leptos::prelude::*;
 use crate::posts::Post;
 
 #[component]
-pub fn PostList(
-    posts: Vec<Post>,
-    on_select: Callback<usize>,
-) -> impl IntoView {
+pub fn PostList(posts: Vec<Post>, on_select: Callback<usize>) -> impl IntoView {
     view! {
         <section class="posts">
             <h2>"Latest posts"</h2>

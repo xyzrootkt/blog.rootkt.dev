@@ -1,9 +1,7 @@
 use leptos::prelude::*;
 
 #[component]
-pub fn Header(
-    on_home: Callback<()>,
-) -> impl IntoView {
+pub fn Header(on_home: Callback<()>) -> impl IntoView {
     view! {
         <header class="header">
             <h1>"rootkt.dev"</h1>

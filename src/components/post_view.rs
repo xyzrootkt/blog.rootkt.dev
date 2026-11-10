@@ -3,10 +3,7 @@ use leptos::prelude::*;
 use crate::posts::Post;
 
 #[component]
-pub fn PostView(
-    post: Post,
-    on_back: Callback<()>,
-) -> impl IntoView {
+pub fn PostView(post: Post, on_back: Callback<()>) -> impl IntoView {
     view! {
         <article class="article">
             <button
