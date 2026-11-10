@@ -1,0 +1,9 @@
+[package]
+name = "rootkt-dev"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+include_dir = "0.7.4"
+leptos = { version = "0.8.23", features = ["csr"] }
+pulldown-cmark = "0.13.6"
